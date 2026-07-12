@@ -377,7 +377,9 @@
     transition: border-color 0.15s, color 0.15s;
   }
   .toolbar-btn:hover { border-color: var(--border2); color: var(--text); }
-  .toolbar-btn.danger:hover { border-color: var(--danger); color: var(--danger); }
+  .toolbar-btn.danger { border-color: var(--danger); color: var(--danger); }
+  .toolbar-btn.danger:hover { background: var(--danger); color: #fff; }
+
   .toolbar-btn.primary { border-color: var(--accent); color: var(--accent-txt); }
   .toolbar-btn.primary:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
   .toolbar-btn:disabled { opacity: 0.5; cursor: not-allowed; }
